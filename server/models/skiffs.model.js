@@ -71,6 +71,9 @@ const TolmanSkiffSchema = new mongoose.Schema({
         type: String,
     },
 
+    description: {
+        type: String,
+    },
 
 
 }, { timestamps: true })

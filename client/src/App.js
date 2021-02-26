@@ -18,7 +18,7 @@ function App() {
         <AllSkiffs path="/skiff" />
         <NewSkiff path="/skiff/new" />
         <OneSkiff path="/skiff/:id" />
-        <EditSkiff path="/skiff/:id/edit"/>
+        <EditSkiff path="/skiff/:skiffId/edit"/>
         <NotFound default />
       </Router>
     </div>
